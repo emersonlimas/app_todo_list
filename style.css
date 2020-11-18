@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    background: #FF6B6B;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+#app {
+    width: 35rem;
+    height: 35rem;
+    background: #fff;
+    padding: 10px;
+}
+
+#app ul li {
+    margin-top: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#app ul li a {
+    margin-left: 15px;
+    color: #f00;
+}
+
+#app input, button {
+    margin-top: 20px;
+}
+
+#app h1 {
+    text-align: center;
+}
+
+#app .editar {
+    color: #1A535C;
+}
+
+#app input {
+    padding: 5px;
+}
+
+#app button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    outline: hidden;
+    border: none;
+}
